@@ -1,0 +1,129 @@
+main {
+    padding:0 0 4rem;
+}
+
+article {
+    width:100%;
+}
+
+.content {
+    margin: 3rem 2rem 4rem;
+    @media (min-width: 769px) {
+        padding:3rem;
+        margin:0 0 5rem 0;
+        width:calc(100% - 5rem);
+        background-color:#f0fff0;
+        box-sizing: border-box;
+    }
+}
+
+.menu-title {
+    display:inline-block;
+    padding:0 0 1rem 0;
+    margin:0 0 3rem 0;
+    color:#006400;
+    font-size:2rem;
+    font-weight:bold;
+    border-bottom: 0.2rem solid #006400;
+    @media (min-width: 769px) {
+        font-size:2.6rem;
+    }
+}
+
+.menu-sub-title {
+    margin:0 0 2rem 0;
+    color:#2f4f4f;
+    font-size:1.8rem;
+    font-weight:bold;
+    @media (min-width: 769px) {
+        font-size:2.2rem;
+        margin:0 0 3rem 0;
+    }
+}
+
+.item {
+    display:flex;
+    flex-direction: column;
+    font-size:1.6rem;
+    margin:0 2rem 2rem;
+    span {
+        font-weight:bold;
+    }
+    a {
+        color:#696969;
+    }
+    @media (min-width: 769px) {
+        display:block;
+        font-size:2rem;
+        margin:0 3rem 3rem;
+    }
+}
+
+.item-s {
+    font-size:1.2rem;
+    margin:0 0 1rem 0;
+    @media (min-width: 769px) {
+        font-size:1.6rem;
+    }
+}
+
+.item-m {
+    font-size:1.4rem;
+    margin:0 0 1rem 0;
+    @media (min-width: 769px) {
+        font-size:1.8rem;
+    }
+}
+
+.pc-display {
+    @media (min-width: 769px) {
+        display:flex;
+        justify-content: space-between;
+        margin:0 20rem;
+    }
+}
+
+.twitter {
+    display:flex;
+    align-items: center;
+    margin: 0;
+    a {
+        color:#696969;
+        @media (min-width: 769px) {
+            font-size:2rem;
+        }
+    }
+}
+
+.twitter-logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:2.4rem;
+    height:2.4rem;
+    background-color:#00ccff;
+    border-radius:50%;
+    margin:0 1rem 0 0;
+    a {
+    color:#ffffff;
+    font-size:1.4rem;
+    }
+}
+
+.mm {
+    font-size:1.4rem;
+    @media (min-width: 769px) {
+        font-size:1.8rem;
+    }
+}
+
+.mail {
+    display:flex;
+    justify-content: center;
+    margin:0 1rem 0 0;
+    font-size:1.8rem;
+    font-weight:bold;
+    @media (min-width: 769px) {
+        font-size:2.2rem;
+    }
+}
