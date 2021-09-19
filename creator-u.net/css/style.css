@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.7;
@@ -16,7 +16,6 @@ body {
   color: #696969;
   background-color: #f0fff0;
 }
-
 @media (min-width: 769px) {
   body {
     font-size: 1.6rem;
@@ -64,7 +63,6 @@ p {
 .header {
   width: 100%;
 }
-
 @media (min-width: 769px) {
   .header {
     display: none;
@@ -91,7 +89,6 @@ p {
   background-position: center center;
   background-size: cover;
 }
-
 @media (min-width: 769px) {
   .cover {
     padding-top: 0;
@@ -105,10 +102,9 @@ p {
   color: #006400;
   text-align: start;
 }
-
 @media (min-width: 769px) {
   .creator-u {
-    font-size: 1rem;
+    font-size: 3rem;
   }
 }
 
@@ -120,7 +116,6 @@ p {
   font-weight: 500;
   color: #696969;
 }
-
 @media (min-width: 769px) {
   .sub-title {
     font-size: 1.6rem;
@@ -134,20 +129,17 @@ p {
   font-weight: bold;
   color: #008080;
 }
-
 @media (min-width: 769px) {
   .title {
     margin: -3rem 0 -2rem 0;
     font-size: 6rem;
   }
 }
-
 .title span {
   margin: 0;
   padding: 0;
   font-size: 1.6rem;
 }
-
 @media (min-width: 769px) {
   .title span {
     font-size: 3rem;
@@ -176,7 +168,6 @@ main {
           align-items: center;
   margin: 3rem;
 }
-
 @media (min-width: 769px) {
   .content {
     padding: 3rem 3rem 0;
@@ -201,7 +192,6 @@ main {
 .detail {
   width: 100%;
 }
-
 @media (min-width: 769px) {
   .detail {
     width: calc(100% / 2);
@@ -255,7 +245,6 @@ main {
   font-weight: bold;
   border-bottom: 0.2rem solid #006400;
 }
-
 @media (min-width: 769px) {
   .menu-title {
     font-size: 2.6rem;
@@ -269,7 +258,6 @@ main {
   font-weight: bold;
   text-align: center;
 }
-
 @media (min-width: 769px) {
   .menu-sub-title {
     font-size: 2.2rem;
@@ -287,15 +275,12 @@ main {
           flex-direction: column;
   margin: 0 2rem 2rem;
 }
-
 .item span {
   font-weight: bold;
 }
-
 .item a {
   color: #696969;
 }
-
 @media (min-width: 769px) {
   .item {
     display: block;
@@ -307,7 +292,6 @@ main {
   font-size: 1.2rem;
   margin: 0 0 1rem 0;
 }
-
 @media (min-width: 769px) {
   .item-s {
     font-size: 1.4rem;
@@ -323,11 +307,9 @@ main {
           align-items: center;
   margin: 0;
 }
-
 .twitter a {
   color: #696969;
 }
-
 .twitter-logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,7 +326,6 @@ main {
   border-radius: 50%;
   margin: 0 1rem 0 0;
 }
-
 .twitter-logo a {
   color: #ffffff;
   font-size: 1.4rem;
@@ -353,7 +334,6 @@ main {
 .mm {
   font-size: 1.2rem;
 }
-
 @media (min-width: 769px) {
   .mm {
     font-size: 1.4rem;
@@ -394,7 +374,6 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 .line-button a {
   width: 100%;
   text-align: center;
@@ -402,7 +381,6 @@ main {
   font-weight: 500;
   color: #ffffff;
 }
-
 @media (min-width: 769px) {
   .line-button a {
     font-size: 1.8rrem;
@@ -426,7 +404,6 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 .cs-button a {
   padding: 0.5rem 1rem;
   width: 100%;
@@ -435,7 +412,6 @@ main {
   font-weight: 500;
   color: #ffffff;
 }
-
 @media (min-width: 769px) {
   .cs-button a {
     font-size: 1.8rem;
@@ -451,7 +427,6 @@ main {
 .hosoku {
   margin: 0 2rem 3rem;
 }
-
 @media (min-width: 769px) {
   .hosoku {
     margin: 0 6rem 3rem;
@@ -478,7 +453,6 @@ main {
   position: fixed;
   width: 100%;
 }
-
 @media (min-width: 769px) {
   .nav {
     position: static;
@@ -503,13 +477,11 @@ main {
   background-color: #696969;
   border: 0.1rem solid #f0fff0;
 }
-
 .nav-item a {
   color: #f0fff0;
   width: 100%;
   text-align: center;
 }
-
 @media (min-width: 769px) {
   .nav-item a {
     font-size: 1.8rem;
@@ -519,7 +491,6 @@ main {
 .pc-nav {
   display: none;
 }
-
 @media (min-width: 769px) {
   .pc-nav {
     display: block;
@@ -564,7 +535,6 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 @media (min-width: 769px) {
   .news {
     margin: 2rem 15rem 0;
@@ -578,7 +548,6 @@ main {
   width: 100%;
   text-align: center;
 }
-
 @media (min-width: 769px) {
   .oshirase {
     font-size: 1.8rem;
@@ -590,7 +559,6 @@ main {
   width: 100%;
   margin-top: 0.5rem;
 }
-
 @media (min-width: 769px) {
   .news-contents {
     display: -webkit-box;
@@ -609,7 +577,6 @@ main {
   color: #000000;
   font-size: 1.4rem;
 }
-
 @media (min-width: 769px) {
   .date {
     margin-right: 2rem;
@@ -620,11 +587,9 @@ main {
 .news-item {
   font-size: 1.4rem;
 }
-
 .news-item a {
   color: #696969;
 }
-
 @media (min-width: 769px) {
   .news-item {
     font-size: 1.6rem;
